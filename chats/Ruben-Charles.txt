@@ -1,0 +1,1 @@
+Mensaje{emisor='Ruben', receptor='Charles', contenido='hola que tal', timestamp=2023-12-07T19:34:13.653012400}

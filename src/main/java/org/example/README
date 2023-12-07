@@ -1,0 +1,41 @@
+# Aplicación de Mensajería por Consola
+
+## Descripción
+Esta es una aplicación de mensajería por consola diseñada para permitir la comunicación entre estudiantes en un entorno de clase. La aplicación soporta tanto chats privados entre dos usuarios como un chat grupal donde todos los estudiantes pueden enviar y recibir mensajes.
+
+## Funcionalidades
+- **Chats Privados**: Permite a los usuarios enviar mensajes privados entre sí.
+- **Chat Grupal**: Un canal común donde todos los usuarios pueden compartir mensajes.
+- **Persistencia de Mensajes**: Los mensajes se guardan en archivos para poder revisarlos más tarde.
+
+## Uso de la Aplicación
+
+### Iniciar la Aplicación
+Para iniciar la aplicación, ejecute el archivo principal en su entorno de desarrollo o a través de la línea de comandos.
+
+### Comandos Disponibles
+Una vez iniciada la aplicación, se presentará al usuario con las siguientes opciones:
+
+- `send`: Enviar un nuevo mensaje.
+- `chat`: Ver el historial de un chat.
+- `exit`: Salir de la aplicación.
+
+### Enviar un Mensaje
+Para enviar un mensaje, siga estos pasos:
+
+1. Escriba `send` y presione Enter.
+2. Ingrese el topic y el mensaje en el formato `/chat/emisor/receptor, mensaje`. Por ejemplo: `/chat/david/juan, Hola Juan`.
+3. Confirme la identidad del emisor ingresando el nombre cuando se le solicite.
+
+### Ver un Chat
+Para ver el historial de un chat, siga estos pasos:
+
+1. Escriba `chat` y presione Enter.
+2. Ingrese el topic del chat que desea ver en el formato `/chat/emisor/receptor`. Por ejemplo: `/chat/david/juan`.
+
+### Salir de la Aplicación
+Para salir de la aplicación, simplemente escriba `exit` y presione Enter.
+
+## Ejemplos de Uso
+
+**Enviar un Mensaje a un Usuario:**
